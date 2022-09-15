@@ -8,7 +8,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleNav = () => {
-    setNav(true)
+    setNav(!nav)
   }
 
   return (
@@ -18,21 +18,21 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border">About</li>
+              <li className="ml-10 text-sm uppercase cursor-pointer hover:border">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">
                 Contact
               </li>
             </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={ 
           nav 
           ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
