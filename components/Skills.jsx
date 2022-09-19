@@ -95,7 +95,37 @@ const Skills = () => {
                   />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>TailwindCss</h3>
+                  <h3>Tailwind</h3>
+                </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <Image 
+                    src="/../public/assets/github.png"
+                    width='64px'
+                    height='64px'
+                    alt="/"
+                  />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>Github</h3>
+                </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <Image 
+                    src="/../public/assets/typescript.png"
+                    width='64px'
+                    height='64px'
+                    alt="/"
+                  />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>Typescript</h3>
                 </div>
             </div>
           </div>
