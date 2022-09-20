@@ -1,4 +1,11 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
+import { ProjectItem } from './ProjectItem';
+import aluraProject from '../public/assets/projects/alura.png'
+import adidasC19 from '../public/assets/projects/adidas.png'
+import creditCardQlab from '../public/assets/projects/creditCard.png'
+import sanjowApp from '../public/assets/projects/sanjowApp.png'
 
 const Projects = () => {
   return (
@@ -7,11 +14,26 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
         <h2 className='py-4'>What I' have Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-
-          <div className='relative flex items-center justify-center h-auto w-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
-
-          </div>
-
+         <ProjectItem 
+            title='Alura Project'
+            backgroundImg={aluraProject}
+            projectUrl='/property'
+            />
+         <ProjectItem 
+            title='Adidas C19'
+            backgroundImg={adidasC19}
+            projectUrl='/adidas'
+            />
+         <ProjectItem 
+            title='Credit Card Qlab'
+            backgroundImg={creditCardQlab}
+            projectUrl='/creditCard'
+            />
+         <ProjectItem 
+            title='Sanjow App'
+            backgroundImg={sanjowApp}
+            projectUrl='/sanjow'
+            />
         </div>
       </div>
     </div>
