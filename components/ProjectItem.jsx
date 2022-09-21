@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import aluraProject from '../public/assets/projects/alura.png'
 
 export const ProjectItem = ({title, backgroundImg, projectUrl}) => {
   return (
@@ -17,3 +16,4 @@ export const ProjectItem = ({title, backgroundImg, projectUrl}) => {
   </div>
   )
 }
+
