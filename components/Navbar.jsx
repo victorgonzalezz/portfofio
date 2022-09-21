@@ -1,37 +1,52 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
   const handleNav = () => {
     setNav(!nav)
-  }
+  };
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, [])
 
   return (
-    <div className="fixed w-full h-20 shadow-xl x-[100]">
+    <div className={ shadow ? 'fixed w-full h-20 shadow-xl x-[100]' : 'fixed w-full h-20 x-[100]'}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <Link href='/'>
         <Image src="/../public/assets/vg.png" alt="/" width="125" height="50" />
+        </Link>
+        
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase cursor-pointer hover:border">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase cursor-pointer hover:border-b">
                 Contact
               </li>
