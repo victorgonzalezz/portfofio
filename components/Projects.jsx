@@ -17,7 +17,7 @@ const Projects = () => {
          <ProjectItem 
             title='Alura Project'
             backgroundImg={aluraProject}
-            projectUrl='/property'
+            projectUrl='/alura'
             />
          <ProjectItem 
             title='Adidas C19'
@@ -27,7 +27,7 @@ const Projects = () => {
          <ProjectItem 
             title='Credit Card Qlab'
             backgroundImg={creditCardQlab}
-            projectUrl='/creditCard'
+            projectUrl='/creditcard'
             />
          <ProjectItem 
             title='Sanjow App'
