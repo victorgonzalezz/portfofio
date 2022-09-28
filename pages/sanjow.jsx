@@ -27,7 +27,7 @@ import Link from 'next/link';
             rrrrrrrrrrrrrrrrrrrrrrrrrrrflamengoafafagagagagagqetqgerwh
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
@@ -42,7 +42,7 @@ import Link from 'next/link';
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> NextJS</p>
             </div>
             <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Material UI</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> ChakraUI</p>
             </div>
             
           </div>

@@ -22,32 +22,50 @@ export const Contact = () => {
                 <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/computer.jpg" alt="/" width="520" height="400" />
               </div>
               <div>
-                <h2 className='py-2'>Name here</h2>
+                <h2 className='py-2'>Victor Gonzalez</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let´s talk.</p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect with Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+
+                      <a
+                    href='https://www.linkedin.com/in/victor-gonzalez-4550a0176/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href='https://github.com/victorgonzalezz'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaGithub />
+                    </div>
+                  </a>
+
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <Link href='/resume'>
+                    <a>
+                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <BsFillPersonLinesFill />
+                      </div>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
 
           </div>
 
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          {/* <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
 
               <form>
@@ -76,15 +94,15 @@ export const Contact = () => {
                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className='flex justify-center py-12'>
+        {/* <div className='flex justify-center py-12'>
           <Link href='/'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )
