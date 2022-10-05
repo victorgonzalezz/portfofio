@@ -12,7 +12,7 @@ import Link from 'next/link';
       <Image className='absolute z-1' layout='fill' objectFit='cover' src={aluraProject} alt='/'/>
       <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
         <h2>Alura Project</h2>
-        <h3>React Js | Tailwind</h3>
+        <h3>React Js | Styled Components</h3>
       </div>
     </div>
 
@@ -21,10 +21,7 @@ import Link from 'next/link';
           <p>Project</p>
           <h2>Overwiew</h2>
           <p>
-            a´pgjaóbjs´boisjsflawawvkadboskdnbsopbknspobknsopbnsdopbnsbpon
-            ksbopnbsdoffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            rrrrrrrrrrrrrrrrrrrrrrrrrrrflamengoafafagagagagagqetqgerwh
+          The alura quiz was made with React and Styled components through a tutorial by Alura itself 
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <button className='px-8 py-2 mt-4 mr-8'>Code</button>
@@ -39,16 +36,7 @@ import Link from 'next/link';
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> React</p>
             </div>
             <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> NextJS</p>
-            </div>
-            <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Tailwind</p>
-            </div>
-            <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Typescript</p>
-            </div>
-            <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Css</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Styled Components</p>
             </div>
           </div>
         </div>

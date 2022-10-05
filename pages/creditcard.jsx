@@ -21,10 +21,9 @@ import Link from 'next/link';
           <p>Project</p>
           <h2>Overwiew</h2>
           <p>
-            a´pgjaóbjs´boisjsflawawvkadboskdnbsopbknspobknsopbnsdopbnsbpon
-            ksbopnbsdoffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            rrrrrrrrrrrrrrrrrrrrrrrrrrrflamengoafafagagagagagqetqgerwh
+          Project made with React and Material UI. The project consisted of creating
+           a credit card form. In it I used a React package called 'react-credit-cards'. With it installed,
+           as soon as you type the initial numbers, the package recognizes which flag it belongs to.
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <button className='px-8 py-2 mt-4 mr-8'>Code</button>

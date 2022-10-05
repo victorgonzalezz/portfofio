@@ -21,10 +21,11 @@ import Link from 'next/link';
           <p>Project</p>
           <h2>Overwiew</h2>
           <p>
-            a´pgjaóbjs´boisjsflawawvkadboskdnbsopbknspobknsopbnsdopbnsbpon
-            ksbopnbsdoffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            rrrrrrrrrrrrrrrrrrrrrrrrrrrflamengoafafagagagagagqetqgerwh
+          This project was a challenge to be delivered as a selection process for a job opportunity. 
+          By far, it was the hardest of all. The project consisted of consuming
+           the reqres.in api, inserting pagination,
+           editing individual profile data, etc. It was the project was made with
+            React, NextJs, Typescript and ChakraUi.
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
