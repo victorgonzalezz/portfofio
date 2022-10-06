@@ -27,7 +27,7 @@ const About = () => {
           
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-        <Image src="/../public/assets/keyboard.jpg" alt="/" width="520" height="400" />
+        <Image src="../public/assets/keyboard.jpg" alt="/" width="520" height="400" />
         </div>
       </div>
     </div>
