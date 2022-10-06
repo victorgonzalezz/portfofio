@@ -33,7 +33,7 @@ import Link from 'next/link';
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Javascript</p>
             </div>
             <div>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> React</p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> ReactJs</p>
             </div>
             <div>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Styled Components</p>
