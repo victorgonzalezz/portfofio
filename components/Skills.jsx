@@ -1,5 +1,15 @@
 import Image from 'next/image';
-import React from 'react'
+import React from 'react';
+
+import materialUiImg from '../public/assets/materialUi.png';
+import javascriptImg from '../public/assets/javascript.png';
+import htmlImg from '../public/assets/html.png';
+import cssImg from '../public/assets/css.png';
+import gitHubImg from '../public/assets/github.png';
+import nextJsImg from '../public/assets/nextjs.png';
+import reactImg from '../public/assets/react.png';
+import tailwindImg from '../public/assets/tailwind.png';
+import typescriptImg from '../public/assets/typescript.png';
 
 const Skills = () => {
   return (
@@ -13,7 +23,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/html.png"
+                    src={htmlImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -28,7 +38,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/css.png"
+                    src={cssImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -43,7 +53,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/javascript.png"
+                    src={javascriptImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -58,7 +68,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/react.png"
+                    src={reactImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -73,7 +83,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/nextjs.png"
+                    src={nextJsImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -88,7 +98,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/tailwind.png"
+                    src={tailwindImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -103,7 +113,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/materialUi.png"
+                    src={materialUiImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -118,7 +128,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/github.png"
+                    src={gitHubImg}
                     width='64px'
                     height='64px'
                     alt="/"
@@ -133,7 +143,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <Image 
-                    src="/../public/assets/typescript.png"
+                    src={typescriptImg}
                     width='64px'
                     height='64px'
                     alt="/"

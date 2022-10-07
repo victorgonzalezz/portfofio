@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import computerImg from '../public/assets/computer.jpg'
 import Link from 'next/link'
 
 export const Contact = () => {
@@ -19,7 +20,7 @@ export const Contact = () => {
             <div className='lg:p-4 h-full'>
 
               <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/computer.jpg" alt="/" width="520" height="400" />
+                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={computerImg} alt="/" width="520" height="400" />
               </div>
               <div>
                 <h2 className='py-2'>Victor Gonzalez</h2>
