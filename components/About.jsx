@@ -14,7 +14,7 @@ const About = () => {
           <p className="py-2 text-gray-600">I am not your normal developer</p>
           <p className="py-2 text-gray-600">I have spent last 10 years as a personal trainer and now I am a ...</p>
           <p className="py-2 text-gray-600">
-          Frontend Developer with one year of professional experiencia. I'm from Brazil currently living in Portugal focused on work in the
+          Frontend Developer with one year of professional experiencie. I'm from Brazil currently living in Portugal focused on work in the
           entire Javascript ecosystem. Constantly expanding my knowledge
           and trying to keep up with this everchanging market.
           Fascinated with how intricate programming can be I was quickly drawn
