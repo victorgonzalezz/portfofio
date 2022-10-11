@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from '../public/assets/vg.png'
+import Logo from '../public/assets/vitinho.png'
 import { useRouter } from "next/router";
 
 const Navbar = () => {
@@ -53,15 +53,15 @@ useEffect(() => {
         : 'fixed w-full h-20 z-[100]'
     }
   >
-    <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    <div className='flex justify-between bg-white items-center w-full h-full px-2 2xl:px-16'>
       <Link href='/'>
         <a>
           <Image
             src={Logo}
             alt='/'
-            width='125'
-            height='50'
-            className='cursor-pointer'
+            width='85'
+            height='85'
+            // bg="[#ecf0f3]"
           />
         </a>
       </Link>
